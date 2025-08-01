@@ -4,17 +4,17 @@ Yet another attempt on making sensible dotfiles
 ## Installation
 
 First install Homebrew:
-```bash
+```zsh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 Then install packages:
-```bash
+```zsh
 brew bundle install
 ```
 
 Finally, symlink dotfiles:
-```bash
+```zsh
 stow <folder> --target ~
 ```
 
@@ -27,7 +27,7 @@ Copy public keys from 1Password to local `.ssh` folder:
 
 ### Directory Structure
 Initialize Git repositories for conditional includes to work:
-```bash
+```zsh
 mkdir -p ~/dev/entur
 cd ~/dev && git init
 cd ~/dev/entur && git init
