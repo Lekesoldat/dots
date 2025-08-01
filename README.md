@@ -3,6 +3,17 @@ Yet another attempt on making sensible dotfiles
 
 ## Installation
 
+First install Homebrew:
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Then install packages:
+```bash
+brew bundle install
+```
+
+Finally, symlink dotfiles:
 ```bash
 stow <folder> --target ~
 ```
