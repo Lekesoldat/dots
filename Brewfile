@@ -1,0 +1,5 @@
+brew "stow"
+cask "ghostty"
+cask "visual-studio-code"
+vscode "github.copilot"
+vscode "github.copilot-chat"
