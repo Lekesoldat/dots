@@ -1,0 +1,8 @@
+[user]
+  email = magnus.holtetx+git@gmail.com
+  name = Magnus Holtet
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIG+aTbS3ac723rg8Fw8COJ2yL/0tSCawc+Nfr3RbsR0B
+
+[url "git@personalgit:"]
+  insteadOf = git@github.com:
+  insteadOf = https://github.com/

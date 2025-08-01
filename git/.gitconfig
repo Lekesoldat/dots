@@ -1,0 +1,17 @@
+[includeIf "gitdir:~/dots/"]
+  path = ~/.gitconfig.personal
+
+[includeIf "gitdir:~/dev/"]
+  path = ~/.gitconfig.personal
+
+[includeIf "gitdir:~/dev/entur/"]
+  path = ~/.gitconfig.entur
+
+[gpg]
+  format = ssh
+
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[commit]
+  gpgsign = true
