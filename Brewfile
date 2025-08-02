@@ -1,3 +1,4 @@
+brew "eza"
 brew "starship"
 brew "stow"
 cask "font-commit-mono"
