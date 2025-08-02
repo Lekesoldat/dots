@@ -1,4 +1,6 @@
+brew "starship"
 brew "stow"
+cask "font-commit-mono"
 cask "ghostty"
 cask "karabiner-elements"
 cask "visual-studio-code"
