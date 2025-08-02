@@ -1,5 +1,6 @@
 brew "stow"
 cask "ghostty"
+cask "karabiner-elements"
 cask "visual-studio-code"
 vscode "github.copilot"
 vscode "github.copilot-chat"
