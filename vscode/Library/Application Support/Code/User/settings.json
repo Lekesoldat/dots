@@ -1,0 +1,6 @@
+{
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.fontFamily": "'CommitMono', Menlo, Monaco, 'Courier New', monospace",
+}
