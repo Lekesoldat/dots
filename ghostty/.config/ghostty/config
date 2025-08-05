@@ -3,7 +3,5 @@ keybind = ctrl+shift+r=reload_config
 window-decoration = false
 window-height = 200
 window-width = 300
-window-padding-x = 0
-window-padding-y = 0
 
-font-family = CommitMono
+font-family = "FiraCode Nerd Font Mono"

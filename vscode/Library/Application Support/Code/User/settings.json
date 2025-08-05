@@ -1,6 +1,107 @@
 {
-  "github.copilot.nextEditSuggestions.enabled": true,
+  // Git
+  "git.autofetch": true,
+  // Editor
   "editor.tabSize": 2,
+  "editor.formatOnSave": true,
   "editor.insertSpaces": true,
-  "editor.fontFamily": "'CommitMono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'FiraCode Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.minimap.enabled": false,
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+  // Workbench
+  "workbench.activityBar.location": "top",
+  // Copilot
+  "github.copilot.nextEditSuggestions.enabled": true,
+  // Vim
+  "vim.leader": ",",
+  "vim.highlightedyank.enable": true,
+  "vim.smartcase": true,
+  "vim.ignorecase": true,
+  "vim.useSystemClipboard": true,
+  "vim.easymotion": true,
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "5",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "<C-k>"
+      ],
+      "after": [
+        "5",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "<Esc><Esc>"
+      ],
+      "commands": [
+        {
+          "command": ":noh"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "r"
+      ],
+      "commands": [
+        {
+          "command": "editor.action.rename"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<space>"
+      ],
+      "after": [
+        "/"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "5",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "<C-k>"
+      ],
+      "after": [
+        "5",
+        "k"
+      ]
+    },
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
 }
