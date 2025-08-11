@@ -9,7 +9,6 @@
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
   "editor.fontFamily": "'FiraCode Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontLigatures": true,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
@@ -20,6 +19,8 @@
   // Workbench
   "workbench.activityBar.location": "top",
   "workbench.startupEditor": "none",
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.colorTheme": "Catppuccin Alt Mocha",
   // Copilot
   "github.copilot.nextEditSuggestions.enabled": true,
   "github.copilot.chat.codesearch.enabled": true,
@@ -117,4 +118,6 @@
       ]
     }
   ],
+  "biome.suggestInstallingGlobally": false,
+  "terminal.integrated.suggest.enabled": true,
 }
