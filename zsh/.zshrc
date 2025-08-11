@@ -30,5 +30,10 @@ eval "$(mise activate zsh)"
 eval "$(mise completion zsh)"
 source <(fzf --zsh)
 
+# Only auto start Zellij if in Ghostty terminal
+if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
+    eval "$(zellij setup --generate-auto-start zsh)"
+fi
+
 # Prompt (should be last to ensure it can access all loaded functions)
 eval "$(starship init zsh)"
