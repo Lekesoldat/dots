@@ -5,3 +5,9 @@ window-height = 200
 window-width = 300
 
 font-family = "FiraCode Nerd Font Mono"
+
+macos-option-as-alt = left
+
+keybind = alt+o=text:ø
+keybind = alt+a=text:å
+keybind = alt+'=text:æ

@@ -1,6 +1,6 @@
 [user]
   email = magnus.lauritzen.holtet@entur.org
-  name = Magnus Lauritzen Holtet
+  name = Magnus L. Holtet
   signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOLpcke0DaUv1XQKbZtVKetvO5gTGmeuavq6fDbs19VZ
 
 [url "git@enturgit:"]
