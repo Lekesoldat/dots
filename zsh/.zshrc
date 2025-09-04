@@ -35,5 +35,9 @@ if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
     eval "$(zellij setup --generate-auto-start zsh)"
 fi
 
+# Required Setup after pnpm is installed
+# `pnpm completion zsh > ~/completion-for-pnpm.zsh`
+source ~/completion-for-pnpm.zsh
+
 # Prompt (should be last to ensure it can access all loaded functions)
 eval "$(starship init zsh)"
